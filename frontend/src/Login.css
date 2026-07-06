@@ -1,0 +1,53 @@
+/* Basic login page styling */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--bg-primary);
+}
+
+.login-card {
+  background: var(--bg-card);
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  width: 320px;
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.login-logo-icon {
+  margin-right: 0.5rem;
+}
+
+.login-subtitle {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.error-msg {
+  background: var(--danger-light);
+  color: var(--danger);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+.btn-primary {
+  width: 100%;
+}

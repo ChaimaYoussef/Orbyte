@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--accent-bg);
+  box-shadow: var(--shadow);
+}
+
+.navbar button {
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  color: var(--text);
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.navbar button.active {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.navbar button:hover {
+  background: var(--accent-bg);
+}

@@ -1,0 +1,33 @@
+# Node
+node_modules/
+dist/
+dist-ssr/
+
+# Java
+target/
+.mvn/
+*.class
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
